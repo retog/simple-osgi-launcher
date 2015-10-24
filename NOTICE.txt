@@ -1,0 +1,7 @@
+Simple OSGi Launcher
+Copyright 2015 Reto Gmür
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software copyright by aQute SARL.
