@@ -137,7 +137,7 @@
     </dependencies>
     <build>
         <plugins>
-            <!-- this is to creae the launcher -->
+            <!-- this is to create the launcher -->
             <plugin>
                 <groupId>org.wymiwyg.simple-osgi-launcher</groupId>
                 <artifactId>osgi-launcher-maven-plugin</artifactId>
