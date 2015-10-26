@@ -142,7 +142,7 @@ public class CreateLauncherMavenPlugin extends AbstractMojo {
 
     private void addFrameworkJars(JarsLauncher jarsLauncher) throws MojoExecutionException {
         addFrameworkJar(jarsLauncher, "org.apache.felix", "org.apache.felix.framework", "5.4.0");
-        addFrameworkJar(jarsLauncher, "org.wymiwyg", "simple-osgi-launcher", "1.0.0-SNAPSHOT");
+        addFrameworkJar(jarsLauncher, "org.wymiwyg.simple-osgi-launcher", "simple-osgi-launcher", "1.0.0-SNAPSHOT");
 
     }
 
