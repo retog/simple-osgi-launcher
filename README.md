@@ -1,4 +1,4 @@
-# Simple OSGi Launcher
+# Simple OSGi Launcher [![Build Status](https://travis-ci.org/retog/simple-osgi-launcher.svg?branch=master)](https://travis-ci.org/retog/simple-osgi-launcher)
 
 I'm sick of complicated launchers. I just want to run my OSGi projects, without
 configuration and deployment.
