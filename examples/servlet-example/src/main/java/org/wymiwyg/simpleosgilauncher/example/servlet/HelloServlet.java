@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.osgi.service.component.annotations.Component;
 
 
-@Component(enabled = true, immediate = true, service = Servlet.class, property = "alias=/hello")
+@Component(service = Servlet.class, property = "alias=/hello")
 public class HelloServlet extends HttpServlet {
     
   @Override
