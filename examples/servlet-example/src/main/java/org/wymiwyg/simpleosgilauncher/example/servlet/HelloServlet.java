@@ -1,4 +1,4 @@
-package org.wymiwyg.simpleosgilauncher.example;
+package org.wymiwyg.simpleosgilauncher.example.servlet;
 
 import java.io.IOException;
 import javax.servlet.Servlet;
