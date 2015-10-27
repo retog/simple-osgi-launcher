@@ -128,11 +128,11 @@ public class CreateLauncherMavenPlugin extends AbstractMojo {
         Set<org.apache.maven.artifact.Artifact> artifacts = project.getArtifacts();
         for (org.apache.maven.artifact.Artifact artifact : artifacts) {
             if (!includeScopes.contains(artifact.getScope())) {
-                log.info("skipping (wrong scope)" + artifact);
+                log.info("skipping (wrong scope): " + artifact);
                 continue;
             }
             if (!"jar".equals(artifact.getType())) {
-                log.info("skipping (not a jar)" + artifact);
+                log.info("skipping (not a jar): " + artifact);
                 continue;
             }
             resultList.add(artifact.getFile());
