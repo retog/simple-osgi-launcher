@@ -5,7 +5,7 @@
     <artifactId>servlet-example</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Simple OSGi Launcher - Example bundle with launcher</name>
+    <name>Simple OSGi Launcher - Servlet example bundle with launcher</name>
     <dependencies>
         <!-- these compile time dependencies are not needed at runtime, 
         so the scope is "provided" -->        

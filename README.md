@@ -48,7 +48,7 @@ Execute it with:
 
     java -jar myproject-launcher.jar
 
-See the [example project](example/) for an example.
+See the [example projects](examples/) for an examples.
 
 
 ## Alternatives

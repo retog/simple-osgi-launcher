@@ -10,6 +10,7 @@
         <module>launcher</module>
         <module>maven-plugin</module>
         <module>examples/servlet-example</module>
+        <module>examples/jaxrs-example</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
