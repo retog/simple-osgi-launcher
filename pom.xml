@@ -9,7 +9,7 @@
     <modules>
         <module>launcher</module>
         <module>maven-plugin</module>
-        <module>example</module>
+        <module>examples/servlet-example</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -5,9 +5,9 @@
         <groupId>org.wymiwyg.simple-osgi-launcher</groupId>
         <artifactId>simple-osgi-launcher-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../..</relativePath>
     </parent>
-    <groupId>org.wymiwyg.simple-osgi-launcher</groupId>
-    <artifactId>example</artifactId>
+    <artifactId>servlet-example</artifactId>
     <packaging>jar</packaging>
     <name>Simple OSGi Launcher - Example bundle with launcher</name>
     <dependencies>
