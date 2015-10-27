@@ -26,7 +26,7 @@ public class Configurator {
         if (props == null) {
             props = new Hashtable();
         }
-        props.put("root", "/jaxrs");
+        props.put("root", "/");
         configuration.update(props);
     }
 

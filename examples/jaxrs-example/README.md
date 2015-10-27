@@ -9,4 +9,4 @@ Start the launcher
     cd target
     java -jar jaxrs-example-1.0.0-SNAPSHOT-launcher.jar
 
-Enjoy the hello world message at `http://localhost:8080/jaxrs/hello`
+Enjoy the hello world message at `http://localhost:8080/hello`
