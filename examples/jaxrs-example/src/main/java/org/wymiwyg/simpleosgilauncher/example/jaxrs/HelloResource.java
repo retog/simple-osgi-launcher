@@ -11,13 +11,13 @@ import javax.ws.rs.Path;
 import org.osgi.service.component.annotations.Component;
 
 
-@Component(enabled = true, immediate = true, service = Object.class)
-@Path( "/foo" )
-public class TestRes {
+@Component(service = Object.class)
+@Path( "hello" )
+public class HelloResource {
     
     @GET
-    public String foo() {
-        return "foo";
+    public String sayIt() {
+        return "Hello OSGi JaxRs World";
     }
     
 }
